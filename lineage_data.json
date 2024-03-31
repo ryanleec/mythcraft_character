@@ -1,0 +1,172 @@
+{
+    "Bhrunai": {
+        "Stone Sleep": "Recover rapidly by entering a deep, stone-like sleep.", 
+        "Fae Step (1/Rest)": "Short-range teleportation with fae energy.",
+        "Unique Ability": "To further define your bhrunai, choose one option from the list on pg 14 at level 1."
+    },
+    "Dragonfolk": {
+        "Buffer Fall": "When falling, you can slow the descent and angle of your fall. For every 30 ft that you fall, you take 1d4 falling damage. Furthermore, for every 10 ft that you fall, you may choose to move 5 ft horizontally.",
+        "Fire Breath (1/Recoup)": "You can spend 3 AP to exhale a cone of fire and sear the creatures around you. Make an END attack vs the FORT of each creature in a 15 ft cone. Deal 2d6 fire damage to creatures that you hit, and ½ as much damage to creatures that you miss.",
+        "Unique Ability": "To further define your dragonfolk, choose one option from the list on page 16 at level 1."
+    },
+    "Dwarf": {
+        "Stonesense": "You have a natural affinity for caving and the underground world. Gain +7 to any History, Geography and Navigating* checks made while underground.",
+        "Darkvision": "You can see in darkness to a limit, even without any light source. While using darkvision, you can see up to 30 ft, and then are blind beyond that point.",
+        "sublineages": {
+            "Mountain": {
+                "Frozen Fortitude": "Your FORT increases by +1. When making END checks to mitigate the effects of extreme cold, roll 2d20 and use whichever one is higher.",
+                "Mountainborn": "Gain +6 Skill Points that you can spend on the skills list on page 18. You cannot put more than +4 points into a single skill using this feature."
+              },
+            "Crag": {
+                "Stone Minded": "our WILL increases by +1. When a creature or effect attempts to impose Charmed on you, it must roll 2d20 and use whichever is lower.",
+                "Ruin Dweller": "Gain +6 Skill Points that you can spend on skills list on page 18 You cannot put more than +4 points into a single skill using this feature."
+            },
+            "Deep": {
+                "Dangersense": "Your ANT increases by +1. When making an AWR check made to detect an ambush or trap, roll 2d20 and use whichever is higher.",
+                "Deep Dweller":"Gain +6 Skill Points that you can spend on list of skills starting on page 18. You cannot put more than +4 points into a single skill using this feature."
+            }
+        }
+    },
+    "Elemental": {
+        "Primal Ancestry":"s a descendant of the Everwilds, you are innately bound to the Primal Source of magic. Learn two primal chants of your choice. END is your magic attribute for these chants when cast in this way. If you learn to cast primal magic through the Warden of the Primal talent, then you may use END or the attribute given to you by that feature.",
+        "sublineages": {
+            "Air": {
+                "Hover": "Difficult terrain never slows your movement. When falling, you only take 1d4 damage per every 30 ft fallen, instead of every 10 ft.",
+                "Mist": "Learn the Mist chant, using your Primal Ancestry to determine your magic attribute."
+            },
+            "Earth": {
+                "Rock-Solid": "When you are not wearing armor, gain +2 to your AR and FORT.",
+                "Hardy": "Gain 3 additional maximum HP."
+            },
+            "Fire": {
+                "Spark": "You can light nonmagical fires at will by touching flammable, nonsentient objects (such as a candle wick or kindling in a campfire). you cannot light objects that are being worn or carried, unless the creature carrying the object willingly lets you light it.",
+                "Flamehand": "Learn the Beam of Fire cantrip, using your Primal Ancestry to determine your magic attribute."
+            },
+            "Water": {
+                "Amphibious": "You can breathe air and water.",
+                "Salve (1/Recoup)": "When Recouping, you may expend 1 gallon of water in your possession to restore 1d6 HP to a Bloodied creature that you touch (which can be yourself)."
+            }
+        }
+    },
+    "Elf": {
+        "Celestial Slumber": "While you sleep, you can choose to dream lucidly, contemplating philosophical questions or the events of the previous day. During this time, you can make up to three INT checks of your choice using skills that have the Knowledge tag. If you have failed a skill check with the Knowledge tag on a topic in the last 24 hours, then you may roll 2d20 and use the higher of the two when making a new check on that topic.",
+        "sublineages": {
+            "Forest": {
+                "Danger-Ready": "Your ANT increases by +1. You have a +2 bonus to Initiative rolls.",
+                "Forest Steward":"Gain +6 Skill Points that you can spend on the list of skills on page 23. You cannot put more than +4 points into a single skill using this feature."
+            },
+            "Mountain": {
+                "Nimblefoot": "Your REF increases by +1. When making END checks to mitigate the effects of extreme cold, roll 2d20 and use whichever one is higher.",
+                "Celectial Lorist": "Gain +6 Skill Points that you can spend on pg 23. You cannot put more than +4 points into a single skill using this feature."
+            },
+            "Plains": {
+                "Sun-Baked":"Your FORT increases by +1. When making END checks to mitigate the effects of extreme heat, roll 2d20 and use whichever one is higher.",
+                "Keen Eye":"You have exceptional eyesight and can make out fine details up to eight miles away (provided that there are no obscuring phenomena). You have +4 Perceiving."
+            },
+            "Star": {
+                "Ancient Will": "Your WILL increases by +1. Gain +5 to any knowledge check made with your Celestial Slumber feature.",
+                "Star Gazer":"Gain +6 Skill Points that you can spend on the list of skills on page 23. You cannot put more than +4 points into a single skill using this feature."
+            }
+        }
+    },
+    "Fiendblood": {
+        "Blood Transformation (1/Rest)":"Fiendbloods share an intimate connection with the chaotic plane of Inferno and can temporarily embrace their fiendish nature without risk of losing their mortal selves. For one minute after activating this feature, your Fiendish traits become even more pronounced and you lose nearly all your humanoid characteristics.",
+        "sublineages": {
+            "Sanguineth-Blooded":{
+                "Sanguine Revelry":"While your Blood Transformation feature is activated, you may spend 4 AP to attempt to drive a living humanoid into a frenzy. Choose one target and attack their WILL with your CHA. If successful, the target is suddenly overcome by a fit of ecstatic madness. On their next turn, they must attack the closest creature, whether that creature is a friend or foe."
+            },
+            "Melaneth-Blooded": { 
+                "Creeping Dread":"While your Blood Transformation feature is activated, you may spend 4 AP to attempt to sow a primal fear in those near you. You must make a CHA attack against the WILL of all creatures within 15 ft. If successful, those creatures are struck with the Broken condition until the end of their next turn."
+            },
+            "Cholereth-Blooded": {
+                "War Bringer": "War Bringer. While your Blood Transformation feature is activated, you may spend 4 AP to inspire up to two allies within 30 feet to bring death and carnage. Those allies do an additional +2 damage whenever they hit an enemy for a number of rounds equal to your CHA+1 (min 1)."
+            },
+            "Phlegmereth-Blooded": {
+                "Pestilence Blessing":"While your Blood Transformation feature is activated, you may spend 4 AP to attempt to infect a living creature with a gift of the Phlegmereth. Choose one target and attack their FORT with your END. If successful, the target becomes covered in painful pustules and becomes Sickened until the end of their next turn. You may make this check again at the end of the target’s turn without expending AP. If successful, the condition repeats for another turn, but ends after the second turn."
+            }
+        }
+    },
+    "Golem": {
+        "Magically Constructed Nature":"You do not need to eat, but must drink, breathe, and sleep like any other creature. You might speak with your MC about what specifically you need to drink: perhaps you survive on olive oil, petroleum, low-viscosity lava, or some other unusual fluid.",
+        "sublineages":{
+            "Bone": {
+                "Vestigial Life": "Your body recalls that it once lived as some kind of mortal. When you receive magical healing from another creature, you regain 2 additional HP."
+            },
+            "Clay": {
+                "Oozing Movement (1/Rest)":"You may cause your body to melt into an oozing substance the consistency of putty. This allows you to squeeze through areas as small as 1 ft wide. When you use this feature, it costs 2 AP to activate and lasts for a number of rounds equal to your END+1 (min 1 round). While using this feature, you cannot make attacks or interact with objects. Your health and defenses are unaffected. You may end this form early if you wish, costing no AP. If this ability ends while you are still transformed, you immediately reform in the nearest unoccupied space and take 1d10 Blunt damage."
+            },
+            "Plant Matter": {
+                "Minor Photosynthesis":"When you Recoup in nonmagical sunlight, you may gain Shield HP equal to your END."
+            }
+            },
+        "Life Source": {
+            "Arcane": "Fundamental magic courses through you. Learn two cantrips from the Arcane Source of magic. END is your magic attribute for these cantrips.",
+            "Divine": "Your connection to divinity manifests in the ability to heal. By spending 2 AP, you may restore HP equal to 1d6+END to yourself or a creature that you touch. You can use this feature once, regaining the ability to do so when you Take a Rest.",
+            "Occult": "You were made through strange and esoteric means. Learn one ritual of your choice from the Occult Source that has no prerequisites. END is your magic attribute for this ritual.",
+            "Primal": "The generative power of the Everwilds swells from within. Learn two chants from the Primal Source of magic. END is your magic attribute for these chants.",
+            "Psionic": "Your Essence is particularly adept. Choose one manifestation from the Psionic Source. You can cast that manifestation at will, using END."
+        }
+        },
+    "Halfling": {
+        "Halfling Stature":"Your REF increases by +1 and you can move through any space occupied by another creature without suffering a penalty to your speed, though you may not end your movement there.",
+        "Bountiful Life": "Gain +6 Skill Points that you can spend on the skills list starting on pg 30. You cannot put more than +4 points into a single skill using this feature.",
+        "Unique Ability": "To further define your halfling, choose one option from the list on pg 31 at level 1."
+    },
+    "Hondu": {
+        "Keen Nose": "When you make AWR checks that rely on your sense of smell, gain an additional +4 bonus to your check.",
+        "Canine Endurance": "Gain +6 Skill Points to spend on skills with the Athleticism or Stamina tags. You cannot spend more than 4 points in a single skill in this way.",
+        "Unique Ability": "To further define your hondu, choose one option from the list on pg 33 at level 1."
+    },
+    "Human": {
+        "Tenacious": "Gain 1 additional point in an attribute of your choice (but still cannot exceed the limits imposed by the attribute cap rules).",
+        "Unique Abilitye": "To further define your human, choose one option from the list on page 34 at level 1."
+    },
+    "Kettek": {
+        "Darkvision": "You can see in darkness to a limit, even without any light source. While using darkvision, you can see up to 30 ft, and then are blind beyond that point.",
+        "Nine Lives": "The number of death points it takes to kill you increases by 1.",
+        "Unique Ability": "To further define your kettek, choose one option from the list on pg 35 at level 1."
+    },
+    "Kleppin": {
+        "Scurry": "When creatures attack you using Reactive actions, their attacks suffer a -2 penalty to hit.",
+        "Unique Abilities": "To further define your Kleppin, choose TWO options from the list on pg 37 at level 1."
+    },
+    "Raedeen": {
+        "Psionic Attunement": "Choose one manifestation of any Aptitude from the Psionic Source. You know that manifestation and it costs 0 SP for you. CHA is your magic attribute when using this feature.",
+        "sublineages": {
+            "Corrupted": {
+                "Razer Plating": "Your raedeen plating is razor sharp. Your dominant hand grows a retractable blade that can be used as a weapon with the stats of a Scimitar or a Shortsword (your choice).",
+                "Blood is Fuel (CHA/Recoup)": "You may spend 1 AP to consume any source of fresh blood other than your own, provided that such a source is within 5 ft of you. (No attack roll is required, but you are limited to targeting corpses, Bloodied creatures, or creatures with the Bleeding condition). Doing so grants you TA on all attacks until the end of your next turn as you are fueled by blood. You can use this feature a number of times equal to your CHA, regaining all expended uses when you Recoup"
+            },
+            "Dreamer": {
+                "Advanced Analytics": "Your mechanical mind processes data at an advanced pace. Whenever you make a check to see through magical illusions, gain +4 to the check.",
+                "Pierce Soul (2/Rest)": "Your gaze is enough to shatter even the most steadfast mental defense. Whenever you make an attack roll against a creature targeting one of their Mental Defenses, you may give yourself +4 to the attack. You may use this feature twice, regaining all expended uses when you Take a Rest."
+            },
+            "Paragon": {
+                "Magical Resonance (1/Rest)": "Your raedeen plating resonates with magical energies. Choose one type of elemental damage. When damage of that type hits you, you may spend 1 reactive AP to gain Affinity with that damage. You retain this Affinity for 1 minute. You may use this feature once, regaining all expended uses when you Take a Rest.",
+                "Efficient Biotech": "Your internal organs operate more efficiently than normal beings, drawing directly from magic to sustain you. You no longer require food or drink to sustain yourself and are immune to food-based diseases. You still need to breathe."
+            }
+        }
+    },
+    "Remnant": {
+        "Armored Form": "You cannot wear Armor, but your base AR begins at 12. You can integrate armor into your form by spending at least one hour disassembling it and customizing it to your form. Armor integrated in this way grants all its magical bonuses, but none of the AR. You can only integrate one suit of armor at a time; if you want to integrate a new set of armor, you must first eject your current form of armor. Ejected armor regains all of its original properties and provides no benefit to you unless you integrate it again.",
+        "Constructed Form": "You do not need to eat or drink, but must still breathe and sleep.",
+        "Unique Ability": "To further define your Remnant, choose one option from the list on pg 42 at level 1."
+    }, 
+    "Satyr": {
+        "Ram": "You may attempt to charge and headbutt an opponent. By spending 3 AP, you may move up to 10 ft and use the Shove maneuver. If you succeed, the target takes 1d4 Blunt damage in addition to being Shoved. This feature can only be used once per turn.",
+        "Unique Ability": "To further define your satyr, choose one option from the list on pg 44 at level 1."
+    },
+    "Trollkin": {
+        "Stoneform (1/Rest)": "Trollkin can gain the unique ability to convert their flesh to stone instantly. As a reactive action, you may spend 1 AP to turn to stone, gaining Resist Damage 10, and becoming Paralyzed but not Helpless. You may not move, attack, or use any ability or feature while in this form. Stoneform lasts until the end of your next turn.",
+        "Rapid Regeneration (1/Recoup)": "Trollkin are particularly hearty and their body can recover quickly from serious wounds. You may spend 2 AP to regain HP equal to one 1d12 plus your END.",
+        "Unique Ability": "To further define your trollkin, choose one option from the list on pg 46 at level 1."
+    },
+    "Undead": {
+        "Undying Constitution": "As an undead you do not need to eat, drink, or breathe to sustain yourself. You must Rest, but you do not sleep and instead enter a state of suspended animation. You are immune to sleep effects.",
+        "Memories of Life": "You may choose one option from any other list of lineage Abilities (not including a lineage’s base features). This represents your lineage before becoming an undead. Such a lineage ability cannot have Prerequisites."
+    },
+    "Urkou": {
+        "Bear the Pain (1/Recoup)": "After being hit by an attack, you may choose to reduce the damage you take by your level.",
+        "Unique Ability": "To further define your urkou, choose one option from the list on pg 50 at level 1."
+    }
+}
